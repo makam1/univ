@@ -1,0 +1,187 @@
+
+.statut{
+  margin-left:15%; 
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color:red;
+}
+.titre{
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    box-shadow: 1px 2px 10px 5px  rgb(12, 80, 114);
+    margin-top: 1%;
+  }
+  .menu{
+      margin-bottom: 1%;
+      height: 90px;
+    box-shadow: 1px 2px 10px 5px  rgb(12, 80, 114);
+
+  }
+  #logo{
+      height: 89px;
+      width:45% ;
+  }
+.champ{
+    width: 400px;
+    height: 30px;
+    text-align: center;
+}
+#champ{
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    margin-left: 30%;
+}
+#ch{
+  width: 400px;
+  height: 30px;
+  text-align: center;
+  margin-left: 30%;
+}
+#type_etudiant{
+    margin:0% 33% 0% 33%;
+
+}
+#type_bourse{
+    display:none;
+}
+#type_boursier{
+    display:none;
+
+
+}
+#logement{
+    display:none;
+
+}
+#pas_de_bourse{
+
+    display:none;
+    margin-left: 50%;
+
+}
+
+.inf{
+    margin-left:30%;
+
+}
+.ajouter{
+    margin:5% 45% 5% ;
+}
+.copyright{
+  background-color:rgb(12, 80, 114);
+  height: 100px;
+  text-align: center;
+}
+.load{
+    animation: slide 2s;
+  }
+  
+  .slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    animation: slide 30s infinite;
+  }
+  
+  .content{
+    color: #fff;
+    width  :100%;
+    
+    background-color: darkgrey;
+  }
+  
+  .principal{
+     left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute; 
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  
+  .principal h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+  }
+  
+  .principal p{
+    font-size: 20px;
+  }
+  
+  @keyframes slide{
+    0%{
+      background-image: url('1.jpg');
+    }
+    
+    20%{
+      background-image: url('1.jpg');
+    }
+    
+    20.01%{
+      background-image: url('2.jpg');
+    }
+    
+    40%{
+      background-image: url('2.jpg');
+    }
+    
+    40.01%{
+      background-image: url('3.png');
+    }
+    
+    60%{
+      background-image: url('3.png');
+    }
+    
+    60.01%{
+      background-image: url('1.png');
+    }
+    
+    80%{
+      background-image: url('1.png');
+    }
+    
+    80.01%{
+      background-image: url('1.jpg');
+    }
+    
+    100%{
+      background-image: url('1.jpg');
+    }
+    
+    }
+    .chambres{
+      margin-top:5%;
+    }
+    ul#nav {
+      display:inline;
+      float:left;
+    }
+    ul#nav li {
+      float:left;
+      list-style-type:none;
+      margin:0 10px;
+      position:relative;
+    }
+    ul#nav div {
+      display:none;
+      float:left;
+      position:absolute;
+    }
+    ul#nav li ul {
+      margin:0;
+      padding:0;
+    }
+    ul#nav li ul li {
+      margin:0px;
+      width:150px;
+      
+    }
+.hover:hover{
+      background-color:  rgb(3, 134, 199);
+  }
